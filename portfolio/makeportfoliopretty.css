@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Sulphur+Point&display=swap');
+
+* { /*Style Reset*/
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    width: 0;
+    height: 0;
+    text-decoration: none;
+
+  }
+
+  body {
+    background: rgb(20, 14, 13);
+    font-size: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+    text-align: center;
+  }
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  border-top: none;
+  border-bottom: 15px dotted rgb(235, 226, 207);
+  }
+  
+  h1 {
+    color: rgb(235, 226, 207);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  p {
+    color: rgb(235, 226, 207);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .navbar {
+    text-align: left;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(20, 14, 13);
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .navbar > li {
+    display: inline;
+  }
+
+  .navbar > li >  a {
+    color: rgb(235, 226, 207);
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar > li > a:hover:not(.active) {
+    background-color: rgb(104, 73, 63);
+  }
+  
+  .active {
+    background-color: rgb(104, 73, 63);
+  }
+
+  .margin-right {
+    margin-right: 50px;
+    }
+
+  .margin-right100 {
+     margin-right: 100px;
+    }
+
+  .margin-top{
+    margin-top: 40px;
+  }
+
+  .inline{
+    display: inline;
+  }
+
+
+
+div.preview img {
+  border-radius: 9999px;
+  max-height: 25vh;
+  min-height: 25vh;
+
+  max-width: 25vh;
+  min-width: 25vh;
+}
+
+img {
+  max-height: 40vh;
+  min-height: 40vh;
+
+  max-width: 40vh;
+  min-width: 40vh;
+  object-fit: cover;
+}

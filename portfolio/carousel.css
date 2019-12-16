@@ -1,0 +1,13 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css');
+
+.carousel img {
+    min-width: 100%;
+    object-fit: cover;
+
+    min-height: 45vh;
+}
+
+.slick-dots button:before {
+    color: white !important;
+}

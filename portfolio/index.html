@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./makeportfoliopretty.css">
+  <link rel="stylesheet" type="text/css" href="./carousel.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+
+  <ul class="navbar">
+    <li><a class="active" href="./index.html">Home</a></li>
+    <li><a href="./project_1">Project 1</a></li>
+    <li><a href="./project_2">Project 2</a></li>
+    <li><a href="./project_3">Project 3</a></li>
+  </ul>
+
+  <h1>My Portfolio</h1>
+
+  <!--carousel code von slick(https://kenwheeler.github.io/slick/)-->
+  <!--fonts von google(https://fonts.google.com/)-->
+
+  <div class="carousel">
+
+    <div>
+      <a href="./project_1/">
+        <img src="assets/stadt.png" alt="r">
+      </a>
+    </div>
+
+
+    <div>
+      <a href="./project_1/">
+        <img src="assets/me.png" alt="r">
+      </a>
+    </div>
+
+    <div>
+      <a href="./project_1/">
+        <img src="assets/roulette_p3.png" alt="r">
+      </a>
+    </div>
+
+    <div>
+      <a href="./project_2/">
+        <img src="assets/foodlander2.png" alt="r">
+      </a>
+    </div>
+
+    <div>
+      <a href="./project_2/">
+        <img src="assets/pancake.png" alt="r">
+      </a>
+    </div>
+
+    <div>
+      <a href="./project_3/">
+        <img src="assets/Inside_Logo 2.png" alt="r">
+      </a>
+    </div>
+
+    <div>
+      <a href="./project_3/">
+        <img src="assets/End_Screen.png" alt="r">
+      </a>
+    </div>
+
+  </div>
+
+
+  <div class="preview">
+    <a href="./project_1/">
+      <img class="margin-right100 margin-top" src="assets/stadt.png" alt="img2" />
+    </a>
+
+    <a href="./project_2/">
+      <img class="margin-right100 margin-top" src="assets/foodlander1.png" alt="img2" />
+    </a>
+
+    <a href="./project_3/">
+      <img class="margin-top" src="assets/Inside_Logo 2.png" alt="img1" />
+    </a>
+
+  </div>
+
+
+
+  <!-- CAROUSEL -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+  <script>
+    $('.carousel').slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false,
+    });
+  </script>
+
+</body>
+
+</html>
